@@ -8,8 +8,7 @@ export default defineConfig({
   base: "/lancer-briefing-oneshot-asteroid/",
   resolve: {
     alias: {
-//      '@': path.resolve(__dirname, './src'),
-      '@': path.resolve(__dirname, './lancer-briefing-oneshot-asteroid/src'),
+      '@': path.resolve(__dirname, './src'),
     },
   }
 })
