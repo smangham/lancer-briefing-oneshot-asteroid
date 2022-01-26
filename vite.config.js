@@ -5,7 +5,7 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: "./",
+  base: "/lancer-briefing-oneshot-asteroid",
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
