@@ -89,13 +89,18 @@ export default {
 
   data() {
     return {
-      "mission_slug": "001",
+      "mission_slug": "002",
       "current_md": "",
       "events": "",
       "missions": [
         {
           "slug": "001",
           "name": "Deep-Impact",
+          "status": "success"
+        },
+        {
+          "slug": "002",
+          "name": "Unmade-Unmaker",
           "status": "start"
         },
       ],
@@ -132,9 +137,17 @@ export default {
           "frame": "Iskander",
           "mech": "Express Delivery"
         },
+        {
+          "callsign": "Goat",
+          "alias": "Ayseli Kapitula ",
+          "code": "3b497dea-5a8a-457d-95de-f9c325a14450//NDL-C-BRASS-STAR",
+          "corpro": "IPS-N",
+          "frame": "Lancaster",
+          "mech": "The Bull"
+        },
       ],
       "header": {
-        "planet": "Asteroid NI-341B",
+        "planet": "New Southampton",
         "year": "5014u",
         "system": "New Hampshire",
         "gate": "Cascade-Shasta",

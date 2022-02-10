@@ -1,0 +1,11 @@
+      "header": {
+        "planet": "Asteroid NI-341B",
+        "year": "5014u",
+        "system": "New Hampshire",
+        "gate": "Cascade-Shasta",
+        "ring": "Cascade-Line",
+        "headerTitle": "Union Navy",
+        "headerSubtitle": "Auxiliary Program",
+        "subheaderTitle": "Superchargers",
+        "subheaderSubtitle": "Mercenary Company",
+      },
