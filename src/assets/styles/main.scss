@@ -831,8 +831,10 @@ div.markdown {
   border-bottom: none;
 }
 
-.horus-subtle {
-  animation: distort-subtle 5s infinite
+mark {
+  animation: distort-subtle 5s infinite;
+  background-color: transparent;
+  color: inherit;
 }
 
 @keyframes distort-subtle {
